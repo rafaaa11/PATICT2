@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: lightcyan;
+  box-shadow: 7px 4px 38px -7px rgba(0, 0, 0, 0.75);
+}
+.navtautan {
+  text-decoration: none;
+  padding: 10px;
+  color: #29979b;
+  transition: 1s;
+  margin: 10px;
+}
+.navkanan {
+  justify-content: space-around;
+  display: flex;
+}
+.logo {
+  height: 80px;
+}
+.heroimage {
+  width: 100%;
+  height: 300px;
+}
+h1 {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navtautan:hover {
+  background-color: lightsteelblue;
+  transition: 0.1s;
+}
